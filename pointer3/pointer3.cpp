@@ -30,5 +30,10 @@ public:
 void siswa::displayAll(orang& a) {
     cout << id << endl << a.nama;
 }
+
+// Implementasi fungsi setNama dari kelas orang
+void orang::setNama(string pNama) {
+    nama = pNama;
+}
 int main() {
 }
