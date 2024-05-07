@@ -13,4 +13,8 @@ int main()
 {
 	mahasiswa mhs{ 1 }; // Membuat objek mhs dengan NIM awal = 1
 	mhs.showNim(); // Menampilkan NIM dari objek mhs
+
+	mahasiswa& refMhs = mhs; // Membuat referensi refMhs untuk merujuk pada objek mhs
+	refMhs.nim = 2; // Mengubah NIM objek mhs menggunakan referensi
+	mhs.showNim(); // Menampilkan NIM yang telah diperbarui dari objek mhs
 }
