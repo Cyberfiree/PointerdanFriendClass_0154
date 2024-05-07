@@ -26,5 +26,9 @@ public:
     void displayAll(orang& a); // Menggunakan objek dari kelas orang sebagai argumen
 };
 
+// Implementasi fungsi displayAll dari kelas siswa
+void siswa::displayAll(orang& a) {
+    cout << id << endl << a.nama;
+}
 int main() {
 }
