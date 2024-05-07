@@ -35,5 +35,10 @@ void siswa::displayAll(orang& a) {
 void orang::setNama(string pNama) {
     nama = pNama;
 }
+
+// Implementasi fungsi setId dari kelas siswa
+void siswa::setId(int pId) {
+    id = pId;
+}
 int main() {
 }
