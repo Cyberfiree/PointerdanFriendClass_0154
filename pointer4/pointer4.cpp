@@ -21,4 +21,7 @@ void setNama(mahasiswa& a, string pNama)
 
 int main()
 {
+	mahasiswa joko; // Membuat objek mahasiswa dengan nama joko
+	setNama(joko, "Kairi Kumar"); // Memanggil fungsi setNama untuk mengatur nama objek menjadi "Kairi Kumar"
+	return 0; // Mengembalikan nilai 0 untuk menandakan bahwa program berakhir tanpa masalah
 }
