@@ -15,5 +15,16 @@ public:
     friend class siswa; // Mendeklarasikan kelas siswa sebagai friend class
 };
 
+// Kelas siswa dengan data member int id dan fungsi-fungsi member setId dan displayAll
+class siswa {
+private:
+    int id;
+
+
+public:
+    void setId(int pId);
+    void displayAll(orang& a); // Menggunakan objek dari kelas orang sebagai argumen
+};
+
 int main() {
 }
