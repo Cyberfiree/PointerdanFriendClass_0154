@@ -13,6 +13,12 @@ public:
 	friend void setNama(mahasiswa& a, string);
 };
 
+// Implementasi friend function setNama
+void setNama(mahasiswa& a, string pNama)
+{
+	a.nama = pNama; // Mengatur nilai anggota nama dari objek mahasiswa
+}
+
 int main()
 {
 }
