@@ -40,5 +40,12 @@ void orang::setNama(string pNama) {
 void siswa::setId(int pId) {
     id = pId;
 }
+
 int main() {
+    orang joko;
+    joko.setNama("Joko Susilo"); // Mengatur nama orang
+    siswa joko_siswa;
+    joko_siswa.setId(1); // Mengatur id siswa
+    joko_siswa.displayAll(joko); // Menampilkan informasi siswa dengan objek orang sebagai argumen
+    return 0;
 }
