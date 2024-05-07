@@ -17,6 +17,7 @@ public:
 void setNama(mahasiswa& a, string pNama)
 {
 	a.nama = pNama; // Mengatur nilai anggota nama dari objek mahasiswa
+	cout << a.nama;
 }
 
 int main()
