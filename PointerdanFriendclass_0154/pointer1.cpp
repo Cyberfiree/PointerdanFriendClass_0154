@@ -17,4 +17,10 @@ int main()
 	mahasiswa& refMhs = mhs; // Membuat referensi refMhs untuk merujuk pada objek mhs
 	refMhs.nim = 2; // Mengubah NIM objek mhs menggunakan referensi
 	mhs.showNim(); // Menampilkan NIM yang telah diperbarui dari objek mhs
+
+	mahasiswa* pMhs = &mhs; // Membuat pointer pMhs yang menunjuk pada objek mhs
+	pMhs->nim = 3; // Mengubah NIM objek mhs menggunakan pointer
+	pMhs->showNim(); // Menampilkan NIM yang telah diperbarui dari objek mhs
+
+	return 0;
 }
