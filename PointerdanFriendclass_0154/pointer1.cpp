@@ -11,4 +11,6 @@ public:
 
 int main()
 {
+	mahasiswa mhs{ 1 }; // Membuat objek mhs dengan NIM awal = 1
+	mhs.showNim(); // Menampilkan NIM dari objek mhs
 }
